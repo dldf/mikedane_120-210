@@ -1,3 +1,8 @@
+# Second Half of Mike Dane's 3.5 hr Youtube React Crash Course
+
+Wherein we use React to build a search bar component for filtering an array
+of products brought in from a (fake but real) API.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
