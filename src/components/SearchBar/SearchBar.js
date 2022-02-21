@@ -1,14 +1,6 @@
 import React, { useState } from 'react';
 
-const products = [
-    'bookplates',
-    'bookends',
-    'paste',
-    'magnets',
-    'book care'
-]
-
-const SearchBar = () => {
+const SearchBar = (props) => {
     const [searchValue, setsearchValue] = useState("")
     const handleInputChange = (e) => {
         setsearchValue(e.target.value)
@@ -16,7 +8,7 @@ const SearchBar = () => {
     const handleClearClick = () => {
         setsearchValue('')
     }
-    const filteredProducts = products.filter((product) => {
+    const filteredProducts = props.products.filter((product) => {
         return product.includes(searchValue)
     }
     )
