@@ -4,6 +4,8 @@ Wherein we use React to build a search bar component for filtering an array
 of products brought in from a (fake but real) API.
 
 This includes all but the last 10 minutes or so (where he shows how to make children props, like <button>my text<button>, where "my text" is the prop.) To get that, check out the end of the video. 
+  
+ ho hum...
 
 # Getting Started with Create React App
 
