@@ -4,7 +4,13 @@ Wherein we use React to build a search bar component for filtering an array
 of products brought in from a (fake but real) API.
 
 This includes all but the last 10 minutes or so (where he shows how to make children props, like <button>my text<button>, where "my text" is the prop.) To get that, check out the end of the video. 
+<<<<<<< HEAD
 now just playing with Git.
+=======
+  
+ ho hum...
+
+>>>>>>> refs/remotes/origin/master
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
